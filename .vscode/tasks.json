@@ -61,18 +61,18 @@
 					"group": "test",
 					"args": [
 							"/C",
-							"${fileDirname}\\${fileBasenameNoExtension}"
+							"${fileDirname}\\build\\${fileBasenameNoExtension}"
 					]
 			},
 			{
 					"type": "cppbuild",
-					"label": "C/C++: gcc.exe �솢�꽦 �뙆�씪 鍮뚮뱶",
+					"label": "C/C++: gcc.exe",
 					"command": "C:\\MinGW\\bin\\gcc.exe",
 					"args": [
 							"-g",
 							"${file}",
 							"-o",
-							"${fileDirname}\\${fileBasenameNoExtension}.exe"
+							"${fileDirname}\\build\\${fileBasenameNoExtension}.exe"
 					],
 					"options": {
 							"cwd": "${fileDirname}"
@@ -91,7 +91,7 @@
 							"-g",
 							"${file}",
 							"-o",
-							"${fileDirname}\\${fileBasenameNoExtension}.exe"
+							"${fileDirname}\\build\\${fileBasenameNoExtension}.exe"
 					],
 					"options": {
 							"cwd": "${fileDirname}"
@@ -115,7 +115,7 @@
 							"-g",
 							"${file}",
 							"-o",
-							"${fileDirname}\\${fileBasenameNoExtension}.exe"
+							"${fileDirname}\\build\\${fileBasenameNoExtension}.exe"
 					],
 					"options": {
 							"cwd": "${fileDirname}"

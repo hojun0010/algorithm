@@ -3,6 +3,13 @@
     "iostream": "cpp",
     "cmath": "cpp",
     "ostream": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "utility": "cpp",
+    "xlocale": "cpp",
+    "deque": "cpp",
+    "queue": "cpp",
+    "vector": "cpp",
+    "xstring": "cpp",
+    "xutility": "cpp"
   }
 }
