@@ -5,7 +5,6 @@ while(True):
     input1 = list(map(int,input().split()))
     if (input1[0] == 0):
         break
-
     else:
         a = input1[0]
         input2 = input1[1:]
